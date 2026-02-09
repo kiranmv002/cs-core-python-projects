@@ -9,14 +9,6 @@ This repository contains academic Python projects developed as a 2nd-year Comput
 - Practice file handling and menu-driven programs  
 - Build a strong academic project foundation  
 
-## Repository Structure
-
-cs-core-python-projects/
-academic/
-library_management.py
-README.md
-requirements.txt
-
 ## Completed Projects
 
 Library Management System
