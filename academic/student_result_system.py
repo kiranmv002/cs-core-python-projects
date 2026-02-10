@@ -2,7 +2,7 @@
 # Student Result Processing System
 # Academic Project for 2nd Year CS Student
 
-FILE_NAME = "results.txt"
+FILE_NAME = "student_results.txt"
 
 
 def calculate_grade(percentage):
