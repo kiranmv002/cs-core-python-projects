@@ -6,7 +6,7 @@ FILE_NAME = "results.txt"
 
 
 def calculate_grade(percentage):
-    if percentage >= 90:
+    if percentage >= 85:
         return "A"
     elif percentage >= 75:
         return "B"
