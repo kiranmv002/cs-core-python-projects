@@ -29,7 +29,7 @@ def view_attendance():
             print("-" * 50)
             for line in file:
                 roll_no, name, attended, percentage = line.strip().split(",")
-                print(f"{roll_no} | {name} | {attended} | {percentage}%")
+                print(f"{roll_no:<8} | {name:<15} | {attended:<10} | {percentage}%")
     except FileNotFoundError:
         print("No attendance records found!")
 
