@@ -10,9 +10,9 @@ def add_attendance():
     name = input("Enter Student Name: ")
     attended = int(input("Enter number of classes attended: "))
 
-    if attended > TOTAL_CLASSES:
-        print("Error: Attended classes cannot exceed total classes.")
-        return
+if attended < 0 or attended > TOTAL_CLASSES:
+    print("Error: Invalid number of attended classes.")
+    return
 
     percentage = (attended / TOTAL_CLASSES) * 100
 
