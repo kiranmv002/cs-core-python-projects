@@ -25,8 +25,8 @@ if attended < 0 or attended > TOTAL_CLASSES:
 def view_attendance():
     try:
         with open(FILE_NAME, "r") as file:
-            print("\nRoll No | Name | Attended | Percentage")
-            print("-" * 50)
+            print("\n{:<8} | {:<15} | {:<10} | {}".format("Roll No", "Name", "Attended", "Percentage"))
+            print("-" * 55)
             for line in file:
                 roll_no, name, attended, percentage = line.strip().split(",")
                 print(f"{roll_no:<8} | {name:<15} | {attended:<10} | {percentage}%")
