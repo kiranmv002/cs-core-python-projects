@@ -111,22 +111,5 @@ A simple system to track student attendance and identify shortage.
 
 New projects are being added regularly as I continue progressing in core Computer Science subjects 🚀
 
----
-
-# 👨‍💻 About Me
-
-**Name:** Your Name  
-**Degree:** B.Tech / B.E – Computer Science  
-**Year:** 2nd Year  
-
-Currently focusing on strengthening:
-- Python 🐍  
-- Operating Systems 💻  
-- DBMS 🗄️  
-- Data Structures 📊  
-
-I believe in learning by building, and this repository reflects my commitment to improving step by step through consistent daily practice.
-
----
 
 ⭐ Thank you for visiting this repository!
