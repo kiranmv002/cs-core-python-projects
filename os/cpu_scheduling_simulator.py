@@ -1,87 +1,67 @@
 # CPU Scheduling Simulator
-# Algorithms: FCFS, SJF, Round Robin
+# Day 5 - Operating Systems Project
+# Algorithms: FCFS and SJF (Non-Preemptive)
 
-def fcfs(processes):
-    wt = [0] * len(processes)
-    tat = [0] * len(processes)
+def calculate_fcfs(burst_times):
+    n = len(burst_times)
+    waiting_time = [0] * n
+    turnaround_time = [0] * n
 
-    for i in range(1, len(processes)):
-        wt[i] = wt[i - 1] + processes[i - 1]
+    for i in range(1, n):
+        waiting_time[i] = waiting_time[i - 1] + burst_times[i - 1]
 
-    for i in range(len(processes)):
-        tat[i] = wt[i] + processes[i]
+    for i in range(n):
+        turnaround_time[i] = waiting_time[i] + burst_times[i]
 
-    print_results("FCFS", wt, tat)
-
-
-def sjf(processes):
-    processes.sort()
-    wt = [0] * len(processes)
-    tat = [0] * len(processes)
-
-    for i in range(1, len(processes)):
-        wt[i] = wt[i - 1] + processes[i - 1]
-
-    for i in range(len(processes)):
-        tat[i] = wt[i] + processes[i]
-
-    print_results("SJF", wt, tat)
+    print_results("FCFS", burst_times, waiting_time, turnaround_time)
 
 
-def round_robin(processes, quantum):
-    rem_bt = processes[:]
-    wt = [0] * len(processes)
-    t = 0
+def calculate_sjf(burst_times):
+    sorted_bt = sorted(burst_times)
+    n = len(sorted_bt)
+    waiting_time = [0] * n
+    turnaround_time = [0] * n
 
-    while True:
-        done = True
-        for i in range(len(processes)):
-            if rem_bt[i] > 0:
-                done = False
-                if rem_bt[i] > quantum:
-                    t += quantum
-                    rem_bt[i] -= quantum
-                else:
-                    t += rem_bt[i]
-                    wt[i] = t - processes[i]
-                    rem_bt[i] = 0
-        if done:
-            break
+    for i in range(1, n):
+        waiting_time[i] = waiting_time[i - 1] + sorted_bt[i - 1]
 
-    tat = [processes[i] + wt[i] for i in range(len(processes))]
-    print_results("Round Robin", wt, tat)
+    for i in range(n):
+        turnaround_time[i] = waiting_time[i] + sorted_bt[i]
+
+    print_results("SJF", sorted_bt, waiting_time, turnaround_time)
 
 
-def print_results(algo, wt, tat):
+def print_results(algo, burst_times, waiting_time, turnaround_time):
     print(f"\n--- {algo} Scheduling ---")
-    print("Process\tWaiting Time\tTurnaround Time")
-    for i in range(len(wt)):
-        print(f"P{i+1}\t\t{wt[i]}\t\t{tat[i]}")
+    print("Process\tBurst\tWaiting\tTurnaround")
 
-    print("Average Waiting Time:", sum(wt) / len(wt))
-    print("Average Turnaround Time:", sum(tat) / len(tat))
+    for i in range(len(burst_times)):
+        print(f"P{i+1}\t{burst_times[i]}\t{waiting_time[i]}\t{turnaround_time[i]}")
+
+    avg_wait = sum(waiting_time) / len(waiting_time)
+    print(f"\nAverage Waiting Time: {avg_wait:.2f}")
 
 
 def main():
     n = int(input("Enter number of processes: "))
-    processes = []
+    burst_times = []
 
     for i in range(n):
         bt = int(input(f"Enter burst time for P{i+1}: "))
-        processes.append(bt)
+        burst_times.append(bt)
 
-    print("\n1. FCFS\n2. SJF\n3. Round Robin")
-    choice = int(input("Choose scheduling algorithm: "))
+    print("\nChoose Scheduling Algorithm:")
+    print("1. FCFS")
+    print("2. SJF")
+
+    choice = int(input("Enter choice: "))
 
     if choice == 1:
-        fcfs(processes)
+        calculate_fcfs(burst_times)
     elif choice == 2:
-        sjf(processes)
-    elif choice == 3:
-        quantum = int(input("Enter time quantum: "))
-        round_robin(processes, quantum)
+        calculate_sjf(burst_times)
     else:
-        print("Invalid choice")
+        print("Invalid choice!")
 
 
 if __name__ == "__main__":
