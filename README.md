@@ -17,7 +17,7 @@ I am continuously working on this repository and adding new projects regularly a
 
 ---
 
-## 🚀 Purpose of This Repository
+## 🎯 Purpose of This Repository
 
 This repository is created to:
 
@@ -25,7 +25,7 @@ This repository is created to:
 - ✅ Develop clean and structured coding habits  
 - ✅ Strengthen core programming fundamentals  
 - ✅ Build confidence for exams and technical interviews  
-- ✅ Document my daily learning progress  
+- ✅ Track daily project-based learning  
 
 All projects are academic-level and designed with clarity and simplicity.
 
@@ -47,13 +47,12 @@ A command-line based system that manages books using file storage.
 - Persistent storage using text files  
 
 ### 🧠 Concepts Practiced
-- File handling (read/write)
-- Menu-driven programming
-- Data storage using text files
-- Basic system design principles
+- File handling (read/write)  
+- Menu-driven programming  
+- Data storage using text files  
+- Basic system design  
 
-📁 **Location:**  
-`academic/library_management.py`
+📁 Location: `academic/library_management.py`
 
 ---
 
@@ -64,24 +63,22 @@ A system that calculates total marks, percentage, and grade for students.
 ### ✨ Features
 - Add student results  
 - Automatic grade calculation  
-- View all results  
 - Search by roll number  
 - Prevent duplicate roll numbers  
 
 ### 🧠 Concepts Practiced
-- Modular programming
-- Data validation
-- Percentage and grading logic
-- Structured file-based storage
+- Modular programming  
+- Data validation  
+- Percentage and grading logic  
+- File-based record storage  
 
-📁 **Location:**  
-`academic/student_result_system.py`
+📁 Location: `academic/student_result_system.py`
 
 ---
 
 ## 📅 3. Attendance Analyzer System
 
-A simple system to track student attendance and identify shortage.
+A system to track student attendance and identify shortage.
 
 ### ✨ Features
 - Add attendance record  
@@ -92,24 +89,82 @@ A simple system to track student attendance and identify shortage.
 ### 🧠 Concepts Practiced
 - File reading and writing  
 - Conditional filtering  
-- Percentage calculation  
 - Data formatting  
 
-📁 **Location:**  
-`academic/attendance_analyzer.py`
+📁 Location: `academic/attendance_analyzer.py`
+
+---
+
+# 💻 Operating Systems Projects
+
+---
+
+## ⚙️ 1. CPU Scheduling Simulator
+
+Simulation of CPU scheduling algorithms.
+
+### ✨ Algorithms Implemented
+- FCFS (First Come First Serve)  
+- SJF (Shortest Job First – Non-preemptive)  
+- Round Robin  
+
+### 📊 Calculations
+- Waiting Time  
+- Turnaround Time  
+- Average Waiting Time  
+
+### 🧠 Concepts Practiced
+- Process scheduling  
+- Time calculation logic  
+- Preemptive and non-preemptive scheduling  
+
+📁 Location: `os/cpu_scheduling_simulator.py`
+
+---
+
+## 📄 2. Page Replacement Simulator
+
+Simulation of memory management algorithms.
+
+### ✨ Algorithms Implemented
+- FIFO (First In First Out)  
+- LRU (Least Recently Used)  
+
+### 📊 Output
+- Total page faults  
+
+### 🧠 Concepts Practiced
+- Page replacement logic  
+- Frame management  
+- Memory simulation  
+
+📁 Location: `os/page_replacement_simulator.py`
 
 ---
 
 # 📈 What This Repository Demonstrates
 
-- Consistent hands-on practice  
-- Daily learning and project implementation  
+- Consistent daily project practice  
 - Strong foundation in Python fundamentals  
-- Understanding of file-based data management  
-- Ability to design simple academic systems  
-- Clean and readable code structure  
+- Practical understanding of Operating Systems  
+- File-based data management  
+- Structured and modular coding approach  
+- Continuous academic growth  
 
-New projects are being added regularly as I continue progressing in core Computer Science subjects 🚀
+More projects will be added as I continue learning core Computer Science subjects 🚀
+
+---
+
+# 👨‍💻 About Me
+
+I am a 2nd-year Computer Science student focused on strengthening my skills in:
+
+- Python  
+- Operating Systems  
+- DBMS  
+- Data Structures  
+
+I believe in learning by building projects step by step.
 
 
 ⭐ Thank you for visiting this repository!
