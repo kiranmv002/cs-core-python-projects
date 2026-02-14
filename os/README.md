@@ -1,6 +1,8 @@
 # 💻 Operating Systems Projects
 
-This folder contains Operating Systems related simulations implemented in Python to understand core OS concepts practically.
+This folder contains Operating Systems simulations implemented in Python to understand core OS concepts practically.
+
+These projects focus on scheduling algorithms and memory management.
 
 ---
 
@@ -8,11 +10,11 @@ This folder contains Operating Systems related simulations implemented in Python
 
 ### 1. CPU Scheduling Simulator
 
-Simulation of basic CPU scheduling algorithms.
+Implemented the following scheduling algorithms:
 
-**Algorithms Implemented**
-- FCFS (First Come First Serve)
-- SJF (Shortest Job First - Non-preemptive)
+- FCFS (First Come First Serve)  
+- SJF (Shortest Job First – Non-preemptive)  
+- Round Robin  
 
 **Calculations**
 - Waiting Time  
@@ -20,10 +22,27 @@ Simulation of basic CPU scheduling algorithms.
 - Average Waiting Time  
 
 **Concepts Practiced**
-- Scheduling algorithms  
-- Process execution simulation  
+- Process scheduling  
 - Time calculation logic  
+- Preemptive and non-preemptive scheduling  
 
 ---
 
-More OS-based simulations such as Page Replacement and Deadlock Detection will be added soon.
+### 2. Page Replacement Simulator
+
+Implemented memory management algorithms:
+
+- FIFO (First In First Out)  
+- LRU (Least Recently Used)  
+
+**Output**
+- Total page faults  
+
+**Concepts Practiced**
+- Page replacement logic  
+- Frame management  
+- Memory simulation  
+
+---
+
+More OS-based simulations will be added progressively.
