@@ -1,4 +1,4 @@
-# 🎓 CS Core Python Projects  
+# 🎓 CS Core Python Projects
 
 Hi there! 👋  
 
@@ -11,6 +11,8 @@ Instead of only studying theory, I’m building small academic systems to streng
 - 📂 File Handling  
 - 🧠 Logical Thinking  
 - 🏗️ Structured System Design  
+- 💻 Operating Systems  
+- 🗄️ Database Management Systems  
 
 Each project reflects consistent practice and steady improvement.  
 I am continuously working on this repository and adding new projects regularly as part of my structured learning routine.
@@ -35,63 +37,67 @@ All projects are academic-level and designed with clarity and simplicity.
 
 ---
 
-## 📖 1. Library Management System
+## 📘 Academic Projects
+
+---
+
+### 1️⃣ Library Management System
 
 A command-line based system that manages books using file storage.
 
-### ✨ Features
+✨ **Features**
 - Add new books  
 - View all books  
 - Issue books  
 - Return books  
 - Persistent storage using text files  
 
-### 🧠 Concepts Practiced
+🧠 **Concepts Practiced**
 - File handling (read/write)  
 - Menu-driven programming  
 - Data storage using text files  
 - Basic system design  
 
-📁 Location: `academic/library_management.py`
+📍 Location: `academic/library_management.py`
 
 ---
 
-## 📊 2. Student Result Processing System
+### 2️⃣ Student Result Processing System
 
 A system that calculates total marks, percentage, and grade for students.
 
-### ✨ Features
+✨ **Features**
 - Add student results  
 - Automatic grade calculation  
 - Search by roll number  
 - Prevent duplicate roll numbers  
 
-### 🧠 Concepts Practiced
+🧠 **Concepts Practiced**
 - Modular programming  
 - Data validation  
 - Percentage and grading logic  
 - File-based record storage  
 
-📁 Location: `academic/student_result_system.py`
+📍 Location: `academic/student_result_system.py`
 
 ---
 
-## 📅 3. Attendance Analyzer System
+### 3️⃣ Attendance Analyzer System
 
 A system to track student attendance and identify shortage.
 
-### ✨ Features
+✨ **Features**
 - Add attendance record  
 - Calculate attendance percentage  
 - Display all records  
 - Show students below 75% attendance  
 
-### 🧠 Concepts Practiced
+🧠 **Concepts Practiced**
 - File reading and writing  
 - Conditional filtering  
 - Data formatting  
 
-📁 Location: `academic/attendance_analyzer.py`
+📍 Location: `academic/attendance_analyzer.py`
 
 ---
 
@@ -99,46 +105,75 @@ A system to track student attendance and identify shortage.
 
 ---
 
-## ⚙️ 1. CPU Scheduling Simulator
+### 4️⃣ CPU Scheduling Simulator
 
 Simulation of CPU scheduling algorithms.
 
-### ✨ Algorithms Implemented
+⚙️ **Algorithms Implemented**
 - FCFS (First Come First Serve)  
 - SJF (Shortest Job First – Non-preemptive)  
 - Round Robin  
 
-### 📊 Calculations
+📊 **Calculations**
 - Waiting Time  
 - Turnaround Time  
 - Average Waiting Time  
 
-### 🧠 Concepts Practiced
+🧠 **Concepts Practiced**
 - Process scheduling  
 - Time calculation logic  
 - Preemptive and non-preemptive scheduling  
 
-📁 Location: `os/cpu_scheduling_simulator.py`
+📍 Location: `os/cpu_scheduling_simulator.py`
 
 ---
 
-## 📄 2. Page Replacement Simulator
+### 5️⃣ Page Replacement Simulator
 
 Simulation of memory management algorithms.
 
-### ✨ Algorithms Implemented
+⚙️ **Algorithms Implemented**
 - FIFO (First In First Out)  
 - LRU (Least Recently Used)  
+- Optimal  
 
-### 📊 Output
+📊 **Output**
 - Total page faults  
+- Frame visualization  
 
-### 🧠 Concepts Practiced
+🧠 **Concepts Practiced**
 - Page replacement logic  
 - Frame management  
 - Memory simulation  
 
-📁 Location: `os/page_replacement_simulator.py`
+📍 Location: `os/page_replacement_simulator.py`
+
+---
+
+# 🗄️ Database Management Systems Projects
+
+---
+
+### 6️⃣ Mini File-Based Database System
+
+A simple database system that simulates basic DBMS operations using text file storage.
+
+✨ **Implemented Operations**
+- Insert Record  
+- View Records  
+- Search Record by ID  
+- Delete Record  
+
+📂 **Storage Used**
+- `database.txt`
+
+🧠 **Concepts Practiced**
+- Basic DBMS operations (Insert, Select, Delete)  
+- File handling  
+- Record searching and filtering  
+- Persistent data storage  
+
+📍 Location: `dbms/mini_database_system.py`
 
 ---
 
@@ -147,9 +182,10 @@ Simulation of memory management algorithms.
 - Consistent daily project practice  
 - Strong foundation in Python fundamentals  
 - Practical understanding of Operating Systems  
+- Basic DBMS implementation  
 - File-based data management  
 - Structured and modular coding approach  
-- Continuous academic growth  
+- Continuous academic growth mindset  
 
 More projects will be added as I continue learning core Computer Science subjects 🚀
 
@@ -165,6 +201,5 @@ I am a 2nd-year Computer Science student focused on strengthening my skills in:
 - Data Structures  
 
 I believe in learning by building projects step by step.
-
 
 ⭐ Thank you for visiting this repository!
