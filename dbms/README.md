@@ -12,23 +12,20 @@ These projects focus on basic database operations and file-based data storage.
 
 Implemented a simple database system using text file storage.
 
-### Implemented Operations:
-
+✨ **Implemented Operations**
 - Insert Record  
-- View All Records  
+- View Records  
 - Search Record by ID  
 - Delete Record  
+- Update Record  
 
-### Storage Used
+📂 **Storage Used**
+- `database.txt`
 
-- Text file (`database.txt`)  
-
-### Concepts Practiced
-
-- Basic DBMS operations (Insert, Select, Delete)  
+🧠 **Concepts Practiced**
+- CRUD operations  
 - File handling  
-- Record searching and filtering  
-- Data modification logic  
+- Record searching and modification  
 - Persistent data storage  
 
 ---
