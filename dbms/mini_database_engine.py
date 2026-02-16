@@ -1,5 +1,5 @@
 # Mini File-Based Database System
-# Day 9 - DBMS Project
+# Day 10 - Added Update Record Feature
 
 FILE_NAME = "database.txt"
 
@@ -76,6 +76,38 @@ def delete_record():
         print("No records found!")
 
 
+def update_record():
+    update_id = input("Enter ID to update: ")
+    records = []
+    found = False
+
+    try:
+        with open(FILE_NAME, "r") as file:
+            for line in file:
+                record_id, name, age = line.strip().split(",")
+
+                if record_id == update_id:
+                    print("Record Found. Enter new details:")
+                    new_name = input("Enter new name: ")
+                    new_age = input("Enter new age: ")
+                    records.append(f"{record_id},{new_name},{new_age}\n")
+                    found = True
+                else:
+                    records.append(line)
+
+        with open(FILE_NAME, "w") as file:
+            for record in records:
+                file.write(record)
+
+        if found:
+            print("Record updated successfully!")
+        else:
+            print("Record not found!")
+
+    except FileNotFoundError:
+        print("No records found!")
+
+
 def menu():
     while True:
         print("\n--- Mini Database System ---")
@@ -83,7 +115,8 @@ def menu():
         print("2. View Records")
         print("3. Search Record")
         print("4. Delete Record")
-        print("5. Exit")
+        print("5. Update Record")
+        print("6. Exit")
 
         choice = input("Enter choice: ")
 
@@ -96,6 +129,8 @@ def menu():
         elif choice == "4":
             delete_record()
         elif choice == "5":
+            update_record()
+        elif choice == "6":
             print("Exiting...")
             break
         else:
