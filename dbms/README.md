@@ -30,4 +30,21 @@ Implemented a simple database system using text file storage.
 
 ---
 
-More DBMS-based projects such as Update operations, Query simulation, and SQL-like systems will be added progressively.
+### 2️⃣ SQL Query Simulator
+
+A simple query simulator that mimics basic SQL operations.
+
+✨ **Implemented Queries**
+- SELECT *  
+- SELECT WHERE id  
+- DELETE WHERE id  
+
+🧠 **Concepts Practiced**
+- Query simulation  
+- Data filtering  
+- Dictionary-based data handling  
+- File rewriting logic  
+
+---
+
+More DBMS projects will be added as part of structured learning.
