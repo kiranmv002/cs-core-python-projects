@@ -1,0 +1,36 @@
+# 📦 Data Structures Projects
+
+This folder contains Data Structures implementations focused on strengthening core DSA concepts through practical coding.
+
+These projects were built as part of my learning journey as a 2nd-year Computer Science student.
+
+---
+
+## ✅ Completed Projects
+
+---
+
+### 1. Stack & Queue Simulator
+
+A command-line based simulator that demonstrates the working of Stack and Queue data structures.
+
+**Features**
+
+- Push (Stack)
+- Pop (Stack)
+- Display Stack
+- Enqueue (Queue)
+- Dequeue (Queue)
+- Display Queue
+
+**Concepts Practiced**
+
+- LIFO (Last In First Out – Stack)
+- FIFO (First In First Out – Queue)
+- Basic data structure implementation
+- List-based simulation of structures
+- Menu-driven program design
+
+---
+
+More Data Structures projects such as Linked List, Sorting Algorithms, and Trees will be added progressively.
