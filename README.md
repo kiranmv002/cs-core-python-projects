@@ -177,6 +177,52 @@ A simple database system that simulates basic DBMS operations using text file st
 
 ---
 
+###  7️⃣ SQL Query Simulator
+
+A simple system that simulates basic SQL-like queries.
+
+### ✨ Implemented Queries
+- SELECT *  
+- SELECT WHERE id  
+- DELETE WHERE id  
+
+### 🧠 Concepts Practiced
+- Query simulation  
+- Data filtering  
+- Dictionary-based data handling  
+- File rewriting logic  
+
+📍 Location: `dbms/sql_query_simulator.py`
+
+---
+
+# 📦 Data Structures Projects
+
+---
+
+###  8️⃣ Stack & Queue Simulator
+
+Simulation of basic data structure operations.
+
+### ✨ Stack Operations
+- Push  
+- Pop  
+- Display  
+
+### ✨ Queue Operations
+- Enqueue  
+- Dequeue  
+- Display  
+
+### 🧠 Concepts Practiced
+- LIFO (Stack)  
+- FIFO (Queue)  
+- Basic DSA simulation  
+
+📍 Location: `dsa/stack_queue_simulator.py`
+
+---
+
 # 📈 What This Repository Demonstrates
 
 - Consistent daily project practice  
