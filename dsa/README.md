@@ -33,4 +33,23 @@ A command-line based simulator that demonstrates the working of Stack and Queue 
 
 ---
 
+### 2. Singly Linked List
+
+A basic implementation of a singly linked list.
+
+**Features**
+
+- Insert node
+- Display list
+- Search element
+- Delete element
+
+**Concepts Practiced**
+
+- Node structure
+- Pointer/reference linking
+- List traversal
+- Dynamic data storage
+
+
 More Data Structures projects such as Linked List, Sorting Algorithms, and Trees will be added progressively.
