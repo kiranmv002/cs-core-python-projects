@@ -92,7 +92,7 @@ def search_student():
 
 def menu():
     while True:
-        print("\n--- Student Result Processing System ---")
+        print("\n---- Student Result Processing System ----")
         print("1. Add Student Result")
         print("2. View All Results")
         print("3. Search Student by Roll Number")
