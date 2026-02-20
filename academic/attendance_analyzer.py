@@ -2,7 +2,7 @@
 # Day 4 Project - 2nd Year Academic Level
 
 FILE_NAME = "attendance.txt"
-TOTAL_CLASSES = 75  # You can change this if needed
+TOTAL_CLASSES = 75  # You can change this if needed. 
 
 
 def add_attendance():
