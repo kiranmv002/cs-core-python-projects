@@ -1,6 +1,7 @@
 # CPU Scheduling Simulator
 # Day 6 Upgrade: Added Round Robin
 
+
 def calculate_fcfs(burst_times):
     n = len(burst_times)
     waiting_time = [0] * n
