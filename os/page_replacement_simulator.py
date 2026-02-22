@@ -93,6 +93,7 @@ def main():
     pages = list(map(int, input("Enter page reference string (space separated): ").split()))
     capacity = int(input("Enter number of frames: "))
 
+
     print("\nChoose Algorithm:")
     print("1. FIFO")
     print("2. LRU")
