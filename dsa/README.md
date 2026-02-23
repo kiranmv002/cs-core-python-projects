@@ -51,5 +51,24 @@ A basic implementation of a singly linked list.
 - List traversal
 - Dynamic data storage
 
+---
+
+### 3. Sorting Algorithms
+
+Implementation of basic sorting techniques.
+
+**Algorithms Implemented**
+
+- Bubble Sort
+- Selection Sort
+- Insertion Sort
+
+**Concepts Practiced**
+
+- Comparison-based sorting
+- Nested loops
+- In-place array modification
+- Basic time complexity understanding
+
 
 More Data Structures projects such as Linked List, Sorting Algorithms, and Trees will be added progressively.
