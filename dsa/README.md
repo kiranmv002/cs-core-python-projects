@@ -71,4 +71,24 @@ Implementation of basic sorting techniques.
 - Basic time complexity understanding
 
 
+---
+
+### 4. Binary Search Tree
+
+Implementation of a Binary Search Tree (BST).
+
+**Features**
+
+- Insert node
+- Inorder traversal
+- Search element
+
+**Concepts Practiced**
+
+- Tree data structure
+- Recursive insertion
+- Traversal techniques
+- Binary search property
+
+
 More Data Structures projects such as Linked List, Sorting Algorithms, and Trees will be added progressively.
