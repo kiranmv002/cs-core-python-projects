@@ -90,5 +90,23 @@ Implementation of a Binary Search Tree (BST).
 - Traversal techniques
 - Binary search property
 
+---
+
+### 5. Searching Algorithms
+
+Implementation of basic searching techniques.
+
+**Algorithms Implemented**
+
+- Linear Search
+- Binary Search
+
+**Concepts Practiced**
+
+- Sequential search
+- Divide and conquer strategy
+- Time complexity comparison
+- Sorted array requirement for binary search
+
 
 More Data Structures projects such as Linked List, Sorting Algorithms, and Trees will be added progressively.
