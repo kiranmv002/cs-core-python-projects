@@ -45,4 +45,21 @@ Implemented memory management algorithms:
 
 ---
 
+### 3. Memory Allocation Simulator
+
+Simulation of contiguous memory allocation strategies.
+
+**Algorithms Implemented**
+
+- First Fit
+- Best Fit
+- Worst Fit
+
+**Concepts Practiced**
+
+- Memory management
+- Allocation strategies
+- Fragmentation handling
+
+
 More OS-based simulations will be added progressively.
