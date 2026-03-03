@@ -45,17 +45,48 @@ A system to calculate total marks, percentage, and grade.
 
 ### 3. Attendance Analyzer System
 
-A system to track attendance and identify shortage.
+A system to track attendance and identify shortage using file-based storage.
 
 **Features**
-- Add attendance records  
-- Calculate percentage  
-- Show students below 75%  
+- Add attendance records
+- Calculate attendance percentage
+- Display all records
+- Show students below 75% attendance
+
+**Storage Used**
+
+- attendance.txt
 
 **Concepts Practiced**
 - File reading and writing  
 - Conditional filtering  
 - Percentage calculation  
+- Data formatting
+---
+
+### 4. Bank Management System
+
+A file-based banking system to manage accounts and transactions.
+
+**Features**
+
+- Create account
+- View accounts
+- Deposit money
+- Withdraw money
+- Balance update stored in file
+
+**Storage Used**
+
+- bank_accounts.txt
+
+**Concepts Practiced**
+
+- File handling
+- Transaction logic
+- Data updating and rewriting
+- Balance validation
+- Structured menu-driven design
 
 ---
 
