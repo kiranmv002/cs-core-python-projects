@@ -22,8 +22,8 @@ A command-line based system to manage library books.
 **Concepts Practiced**
 - File handling  
 - Menu-driven programs  
-- Basic system design  
-
+- Basic system design
+  
 ---
 
 ### 2. Student Result Processing System
@@ -36,10 +36,15 @@ A system to calculate total marks, percentage, and grade.
 - Search by roll number  
 - Prevent duplicate roll numbers  
 
+**Storage Used**
+
+- student_results.txt
+
 **Concepts Practiced**
 - Modular programming  
 - Data validation  
 - File-based record storage  
+- Percentage and grading logic
 
 ---
 
