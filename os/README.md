@@ -61,5 +61,23 @@ Simulation of contiguous memory allocation strategies.
 - Allocation strategies
 - Fragmentation handling
 
+---
+
+### 4. Deadlock Detection Simulator
+
+Simulation of deadlock detection using allocation and request matrices.
+
+**Features**
+
+- Detect deadlocked processes
+- Resource allocation analysis
+- Matrix-based detection algorithm
+
+**Concepts Practiced**
+
+- Deadlock detection algorithm
+- Resource allocation graph concepts
+- Process state analysis
+
 
 More OS-based simulations will be added progressively.
