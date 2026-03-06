@@ -36,3 +36,35 @@ def deadlock_detection(processes, resources, allocation, request, available):
                     changed = True
 
     deadlocked = []
+
+    for i in range(processes):
+        if not finish[i]:
+            deadlocked.append(i)
+
+    if len(deadlocked) == 0:
+        print("\nNo Deadlock detected.")
+    else:
+        print("\nDeadlock detected in processes:", deadlocked)
+
+
+# -------- MAIN --------
+
+p = int(input("Enter number of processes: "))
+r = int(input("Enter number of resource types: "))
+
+print("\nEnter Allocation Matrix")
+allocation = []
+for i in range(p):
+    row = list(map(int, input().split()))
+    allocation.append(row)
+
+print("\nEnter Request Matrix")
+request = []
+for i in range(p):
+    row = list(map(int, input().split()))
+    request.append(row)
+
+print("\nEnter Available Resources")
+available = list(map(int, input().split()))
+
+deadlock_detection(p, r, allocation, request, available)
