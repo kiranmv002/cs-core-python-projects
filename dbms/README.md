@@ -47,4 +47,21 @@ A simple query simulator that mimics basic SQL operations.
 
 ---
 
+### 3. Indexing Simulation
+
+Simulation of database indexing to speed up record searching.
+
+✨ Implemented Features
+
+- Build index from database records
+- Search records using index
+- Faster lookup using dictionary
+
+🎯 Concepts Practiced
+
+- Database indexing
+- Key-value mapping
+- Search optimization
+
+
 More DBMS projects will be added as part of structured learning.
