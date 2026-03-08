@@ -30,7 +30,7 @@ Implemented a simple database system using text file storage.
 
 ---
 
-### 2️⃣ SQL Query Simulator
+### 2. SQL Query Simulator
 
 A simple query simulator that mimics basic SQL operations.
 
