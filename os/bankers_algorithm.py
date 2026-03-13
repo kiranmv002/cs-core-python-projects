@@ -1,5 +1,6 @@
 # Banker's Algorithm
 # Operating Systems - Day 21
+
 def calculate_need(max_matrix, allocation, p, r):
 
     need = []
@@ -48,9 +49,32 @@ def bankers_algorithm(p, r, allocation, max_matrix, available):
 
         if not found:
             break
+
     if len(safe_sequence) == p:
         print("\nSystem is in SAFE state")
         print("Safe sequence:", safe_sequence)
     else:
         print("\nSystem is in DEADLOCK state")
 
+
+# ---------------- MAIN ----------------
+
+p = int(input("Enter number of processes: "))
+r = int(input("Enter number of resources: "))
+
+print("\nEnter Allocation Matrix")
+allocation = []
+for i in range(p):
+    row = list(map(int, input().split()))
+    allocation.append(row)
+
+print("\nEnter Maximum Matrix")
+max_matrix = []
+for i in range(p):
+    row = list(map(int, input().split()))
+    max_matrix.append(row)
+
+print("\nEnter Available Resources")
+available = list(map(int, input().split()))
+
+bankers_algorithm(p, r, allocation, max_matrix, available)
