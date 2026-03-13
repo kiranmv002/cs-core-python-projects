@@ -88,12 +88,13 @@ Simulation of the Banker's Algorithm used for deadlock avoidance.
 ✨ Implemented Features
 
 - Safe state detection
-  
+- Safe sequence calculation
+- Resource allocation safety check
 
 🎯 Concepts Practiced
+
+- Deadlock avoidance
 - Allocation, Max, and Need matrices
 - Safe sequence algorithm
-- Deadlock avoidance
-
 
 More OS-based simulations will be added progressively.
