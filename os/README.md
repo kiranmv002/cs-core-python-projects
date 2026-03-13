@@ -79,5 +79,20 @@ Simulation of deadlock detection using allocation and request matrices.
 - Resource allocation graph concepts
 - Process state analysis
 
+---
+
+### 5. Banker's Algorithm
+
+Simulation of the Banker's Algorithm used for deadlock avoidance.
+
+✨ Implemented Features
+
+- Safe state detection
+  
+
+🎯 Concepts Practiced
+
+- Deadlock avoidance
+
 
 More OS-based simulations will be added progressively.
