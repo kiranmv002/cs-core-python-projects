@@ -91,7 +91,8 @@ Simulation of the Banker's Algorithm used for deadlock avoidance.
   
 
 🎯 Concepts Practiced
-
+- Allocation, Max, and Need matrices
+- Safe sequence algorithm
 - Deadlock avoidance
 
 
