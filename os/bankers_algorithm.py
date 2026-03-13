@@ -48,3 +48,9 @@ def bankers_algorithm(p, r, allocation, max_matrix, available):
 
         if not found:
             break
+    if len(safe_sequence) == p:
+        print("\nSystem is in SAFE state")
+        print("Safe sequence:", safe_sequence)
+    else:
+        print("\nSystem is in DEADLOCK state")
+
