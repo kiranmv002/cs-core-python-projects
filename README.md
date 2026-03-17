@@ -190,6 +190,26 @@ Simulation of contiguous memory allocation strategies.
 
 ---
 
+## 8️⃣ Banker's Algorithm
+
+Simulation of deadlock avoidance using Banker’s Algorithm.
+
+⚙️ Implemented Features
+
+- Safe state detection  
+- Safe sequence calculation  
+- Resource allocation safety check  
+
+🧠 Concepts Practiced
+
+- Deadlock avoidance  
+- Allocation, Max, and Need matrices  
+- Safe sequence algorithm  
+
+📍 Location: `os/bankers_algorithm.py`
+
+---
+
 # 🗄️ Database Management Systems Projects
 
 ---
