@@ -170,6 +170,26 @@ Simulation of deadlock detection using resource allocation matrices.
 
 ---
 
+## 7️⃣ Memory Allocation Simulator
+
+Simulation of contiguous memory allocation strategies.
+
+⚙️ Algorithms Implemented
+
+- First Fit  
+- Best Fit  
+- Worst Fit  
+
+🧠 Concepts Practiced
+
+- Memory management  
+- Allocation strategies  
+- Fragmentation handling  
+
+📍 Location: `os/memory_allocation_simulator.py`
+
+---
+
 # 🗄️ Database Management Systems Projects
 
 ---
