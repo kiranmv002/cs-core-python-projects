@@ -150,6 +150,26 @@ Simulation of memory management algorithms.
 
 ---
 
+## 6️⃣ Deadlock Detection Simulator
+
+Simulation of deadlock detection using resource allocation matrices.
+
+⚙️ Implemented Operations
+
+- Allocation Matrix handling  
+- Request Matrix handling  
+- Deadlock detection  
+
+🧠 Concepts Practiced
+
+- Deadlock detection algorithm  
+- Resource allocation analysis  
+- Process state management  
+
+📍 Location: `os/deadlock_detection.py`
+
+---
+
 # 🗄️ Database Management Systems Projects
 
 ---
