@@ -150,7 +150,7 @@ Simulation of memory management algorithms.
 
 ---
 
-## 6️⃣ Deadlock Detection Simulator
+### 6️⃣ Deadlock Detection Simulator
 
 Simulation of deadlock detection using resource allocation matrices.
 
@@ -170,7 +170,7 @@ Simulation of deadlock detection using resource allocation matrices.
 
 ---
 
-## 7️⃣ Memory Allocation Simulator
+### 7️⃣ Memory Allocation Simulator
 
 Simulation of contiguous memory allocation strategies.
 
@@ -190,7 +190,7 @@ Simulation of contiguous memory allocation strategies.
 
 ---
 
-## 8️⃣ Banker's Algorithm
+### 8️⃣ Banker's Algorithm
 
 Simulation of deadlock avoidance using Banker’s Algorithm.
 
@@ -307,7 +307,7 @@ Simulation of basic data structure operations.
 
 ---
 
-## 🔟 Singly Linked List
+### 🔟 Singly Linked List
 
 Implementation of a basic linked list.
 
@@ -326,6 +326,26 @@ Implementation of a basic linked list.
 - Dynamic data storage  
 
 📍 Location: dsa/linked_list.py
+
+---
+
+### 1️⃣1️⃣ Sorting Algorithms
+
+Implementation of basic sorting techniques.
+
+⚙️ Algorithms Implemented
+
+- Bubble Sort  
+- Selection Sort  
+- Insertion Sort  
+
+🧠 Concepts Practiced
+
+- Comparison-based sorting  
+- Nested loops  
+- Time complexity basics  
+
+📍 Location: dsa/sorting_algorithms.py
 
 ---
 
