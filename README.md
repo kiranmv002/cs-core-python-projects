@@ -267,6 +267,7 @@ Simulation of database indexing to improve search efficiency.
 
 📁 Storage Used
 
+- database.txt 
 
 🧠 Concepts Practiced
 
