@@ -307,6 +307,28 @@ Simulation of basic data structure operations.
 
 ---
 
+## 🔟 Singly Linked List
+
+Implementation of a basic linked list.
+
+✨ Implemented Operations
+
+- Insert node  
+- Display list  
+- Search element  
+- Delete element  
+
+🧠 Concepts Practiced
+
+- Node structure  
+- Pointer linking  
+- List traversal  
+- Dynamic data storage  
+
+📍 Location: dsa/linked_list.py
+
+---
+
 # 📈 What This Repository Demonstrates
 
 - Consistent daily project practice  
