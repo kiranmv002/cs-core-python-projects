@@ -253,6 +253,29 @@ A simple system that simulates basic SQL-like queries.
 - File rewriting logic  
 
 📍 Location: `dbms/sql_query_simulator.py`
+---
+
+### 8️⃣ Indexing Simulation
+
+Simulation of database indexing to improve search efficiency.
+
+✨ Implemented Features
+
+- Build index from database records  
+- Search records using index  
+- Faster lookup using dictionary  
+
+📁 Storage Used
+
+
+🧠 Concepts Practiced
+
+- Database indexing  
+- Key-value mapping  
+- Search optimization  
+- File handling  
+
+📍 Location: dbms/indexing_simulation.py
 
 ---
 
@@ -260,7 +283,7 @@ A simple system that simulates basic SQL-like queries.
 
 ---
 
-###  8️⃣ Stack & Queue Simulator
+###  9️⃣ Stack & Queue Simulator
 
 Simulation of basic data structure operations.
 
