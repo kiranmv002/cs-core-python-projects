@@ -349,6 +349,26 @@ Implementation of basic sorting techniques.
 
 ---
 
+## 1️⃣2️⃣ Binary Search Tree
+
+Implementation of a Binary Search Tree.
+
+✨ Implemented Operations
+
+- Insert node  
+- Inorder traversal  
+- Search element  
+
+🧠 Concepts Practiced
+
+- Tree data structure  
+- Recursive traversal  
+- Binary search property  
+
+📍 Location: dsa/binary_search_tree.py
+
+---
+
 # 📈 What This Repository Demonstrates
 
 - Consistent daily project practice  
@@ -360,6 +380,7 @@ Implementation of basic sorting techniques.
 - Continuous academic growth mindset  
 
 More projects will be added as I continue learning core Computer Science subjects 🚀
+
 
 ---
 
