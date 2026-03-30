@@ -71,3 +71,21 @@ def transaction():
         else:
             print("Invalid choice!")
 
+
+# -------- MAIN --------
+
+while True:
+
+    print("\n--- Transaction System ---")
+    print("1. Start Transaction")
+    print("2. Exit")
+
+    ch = input("Enter choice: ")
+
+    if ch == "1":
+        transaction()
+    elif ch == "2":
+        print("Exiting...")
+        break
+    else:
+        print("Invalid choice!")
