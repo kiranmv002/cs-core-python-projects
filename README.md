@@ -369,6 +369,26 @@ Implementation of a Binary Search Tree.
 
 ---
 
+## 1️⃣3️⃣ Searching Algorithms
+
+Implementation of searching techniques.
+
+⚙️ Algorithms Implemented
+
+- Linear Search  
+- Binary Search  
+
+🧠 Concepts Practiced
+
+- Sequential searching  
+- Divide and conquer approach  
+- Time complexity comparison  
+
+📍 Location: dsa/searching_algorithms.py
+
+---
+
+
 # 📈 What This Repository Demonstrates
 
 - Consistent daily project practice  
