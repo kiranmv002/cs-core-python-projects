@@ -278,6 +278,18 @@ Simulation of database indexing to improve search efficiency.
 
 📍 Location: dbms/indexing_simulation.py
 
+### 🔟 Transaction & Rollback Simulation
+
+Simulation of database transactions with commit and rollback functionality.
+
+✨ Implemented Features
+
+- Start transaction
+- Insert and delete operations (temporary)
+- Commit changes
+- Rollback changes
+
+
 ---
 
 # 📦 Data Structures Projects
