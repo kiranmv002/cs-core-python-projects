@@ -1,7 +1,7 @@
 # Transaction & Rollback Simulation
 # Day 22 - DBMS Project
 
-FILE_NAME = "database.txt"
+FILE_NAME = "transactions.txt"
 
 
 def read_data():
