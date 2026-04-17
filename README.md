@@ -289,6 +289,16 @@ Simulation of database transactions with commit and rollback functionality.
 - Commit changes
 - Rollback changes
 
+📁 Storage Used
+
+- database.txt
+
+🧠 Concepts Practiced
+
+- Transaction management
+- Atomicity (ACID properties)
+- Data consistency
+- Backup and recovery
 
 ---
 
