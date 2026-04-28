@@ -1,57 +1,91 @@
-# Graph Implementation using Adjacency List
-# Day 23 - Data Structures Project
+# Transaction & Rollback Simulation
+# Day 22 - DBMS Project
 
-from collections import deque
+FILE_NAME = "database.txt"
 
 
-class Graph:
-    def __init__(self):
-        self.graph = {}
+def read_data():
+    try:
+        file = open(FILE_NAME, "r")
+        data = file.readlines()
+        file.close()
+        return data
+    except:
+        return []
 
-    # Add edge
-    def add_edge(self, u, v):
-        if u not in self.graph:
-            self.graph[u] = []
-        if v not in self.graph:
-            self.graph[v] = []
 
-        self.graph[u].append(v)
-        self.graph[v].append(u)   # remove this if directed
+def write_data(data):
+    file = open(FILE_NAME, "w")
+    file.writelines(data)
+    file.close()
 
-    # Display graph
-    def display(self):
-        print("\nGraph:")
-        for node in self.graph:
-            print(node, "->", self.graph[node])
 
-    # BFS
-    def bfs(self, start):
-        visited = set()
-        queue = deque([start])
+def transaction():
 
-        print("\nBFS Traversal:")
+    print("\n--- Transaction Started ---")
 
-        while queue:
-            node = queue.popleft()
+    original_data = read_data()   # backup
+    temp_data = original_data.copy()
 
-            if node not in visited:
-                print(node, end=" ")
-                visited.add(node)
+    while True:
 
-                for neighbour in self.graph[node]:
-                    if neighbour not in visited:
-                        queue.append(neighbour)
+        print("\n1. Insert Record")
+        print("2. Delete Record")
+        print("3. View Temp Data")
+        print("4. Commit")
+        print("5. Rollback")
 
-        print()
+        choice = input("Enter choice: ")
 
-    # DFS
-    def dfs(self, start, visited=None):
-        if visited is None:
-            visited = set()
+        if choice == "1":
+            record = input("Enter record (id,name,age): ")
+            temp_data.append(record + "\n")
+            print("Record added (not yet saved)")
 
-        print(start, end=" ")
-        visited.add(start)
+        elif choice == "2":
+            key = input("Enter ID to delete: ")
+            new_data = []
 
-        for neighbour in self.graph[start]:
-            if neighbour not in visited:
-                self.dfs(neighbour, visited)
+            for line in temp_data:
+                if not line.startswith(key + ","):
+                    new_data.append(line)
+
+            temp_data = new_data
+            print("Record removed (not yet saved)")
+
+        elif choice == "3":
+            print("\n--- Temp Data ---")
+            for line in temp_data:
+                print(line.strip())
+
+        elif choice == "4":
+            write_data(temp_data)
+            print("Transaction Committed ✅")
+            break
+
+        elif choice == "5":
+            write_data(original_data)
+            print("Transaction Rolled Back ❌")
+            break
+
+        else:
+            print("Invalid choice!")
+
+
+# -------- MAIN --------
+
+while True:
+
+    print("\n--- Transaction System ---")
+    print("1. Start Transaction")
+    print("2. Exit")
+
+    ch = input("Enter choice: ")
+
+    if ch == "1":
+        transaction()
+    elif ch == "2":
+        print("Exiting...")
+        break
+    else:
+        print("Invalid choice!")
