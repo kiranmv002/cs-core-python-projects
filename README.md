@@ -291,7 +291,7 @@ Simulation of database transactions with commit and rollback functionality.
 
 📁 Storage Used
 
-- database.txt
+- transactions.txt
 
 🧠 Concepts Practiced
 
