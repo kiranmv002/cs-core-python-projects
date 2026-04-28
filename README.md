@@ -410,6 +410,20 @@ Implementation of searching techniques.
 
 ---
 
+### 1️⃣4️⃣ Graph Implementation
+
+Implementation of graph using adjacency list with traversal algorithms.
+
+✨ Implemented Operations
+
+- Add edge
+- Display graph
+- BFS traversal
+- DFS traversal
+
+
+---
+
 
 # 📈 What This Repository Demonstrates
 
