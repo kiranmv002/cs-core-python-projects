@@ -409,6 +409,7 @@ Implementation of searching techniques.
 📍 Location: dsa/searching_algorithms.py
 
 ---
+---
 
 ### 1️⃣4️⃣ Graph Implementation
 
@@ -421,6 +422,12 @@ Implementation of graph using adjacency list with traversal algorithms.
 - BFS traversal
 - DFS traversal
 
+🧠 Concepts Practiced
+
+- Graph data structure
+- Adjacency list representation
+- Breadth First Search (BFS)
+- Depth First Search (DFS)
 
 ---
 
