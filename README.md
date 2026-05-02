@@ -431,6 +431,18 @@ Implementation of graph using adjacency list with traversal algorithms.
 
 ---
 
+### 1️⃣5️⃣ LRU Cache Simulation
+
+Simulation of Least Recently Used (LRU) cache replacement policy.
+
+✨ Implemented Features
+
+- Page access handling
+- Cache hit and miss detection
+- Least recently used removal
+
+---
+
 
 # 📈 What This Repository Demonstrates
 
