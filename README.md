@@ -409,7 +409,6 @@ Implementation of searching techniques.
 📍 Location: dsa/searching_algorithms.py
 
 ---
----
 
 ### 1️⃣4️⃣ Graph Implementation
 
@@ -440,6 +439,12 @@ Simulation of Least Recently Used (LRU) cache replacement policy.
 - Page access handling
 - Cache hit and miss detection
 - Least recently used removal
+
+🧠 Concepts Practiced
+
+- LRU algorithm
+- Cache memory management
+- Data structure optimization
 
 ---
 
