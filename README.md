@@ -448,6 +448,19 @@ Simulation of Least Recently Used (LRU) cache replacement policy.
 
 ---
 
+### 1️⃣6️⃣ Hash Table Implementation
+
+Implementation of a hash table using chaining technique.
+
+✨ Implemented Operations
+
+- Insert key-value pair
+- Search key
+- Delete key
+- Display hash table
+
+---
+
 
 # 📈 What This Repository Demonstrates
 
