@@ -466,9 +466,26 @@ Implementation of a hash table using chaining technique.
 - Key-value mapping
 - Efficient data lookup
 
-
 ---
 
+### 1️⃣7️⃣ Dijkstra Algorithm
+
+Implementation of Dijkstra’s shortest path algorithm.
+
+✨ Implemented Features
+
+- Shortest path calculation
+- Adjacency matrix input
+- Distance update logic
+
+🧠 Concepts Practiced
+
+- Graph algorithms
+- Greedy technique
+- Shortest path problem
+- Weighted graph traversal
+
+---
 
 # 📈 What This Repository Demonstrates
 
