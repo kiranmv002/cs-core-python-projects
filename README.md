@@ -459,6 +459,14 @@ Implementation of a hash table using chaining technique.
 - Delete key
 - Display hash table
 
+🧠 Concepts Practiced
+
+- Hashing function
+- Collision handling (chaining)
+- Key-value mapping
+- Efficient data lookup
+
+
 ---
 
 
