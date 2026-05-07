@@ -34,3 +34,26 @@ def dijkstra(graph, start):
                 distance[j] > distance[min_index] + graph[min_index][j]):
 
                 distance[j] = distance[min_index] + graph[min_index][j]
+
+    # display result
+    print("\nShortest Distances from Node", start)
+
+    for i in range(nodes):
+        print(f"Node {i} -> {distance[i]}")
+
+
+# -------- MAIN --------
+
+nodes = int(input("Enter number of nodes: "))
+
+graph = []
+
+print("\nEnter adjacency matrix:")
+
+for i in range(nodes):
+    row = list(map(int, input().split()))
+    graph.append(row)
+
+start = int(input("\nEnter source node: "))
+
+dijkstra(graph, start)
