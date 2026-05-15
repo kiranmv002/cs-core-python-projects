@@ -26,3 +26,28 @@ while True:
 
         print("Element inserted")
 
+    # remove
+    elif choice == "2":
+
+        if len(priority_queue) == 0:
+            print("Queue is empty")
+
+        else:
+            removed = heapq.heappop(priority_queue)
+
+            print("Removed element:", removed)
+
+    # display
+    elif choice == "3":
+
+        print("\nPriority Queue:")
+        print(priority_queue)
+
+    # exit
+    elif choice == "4":
+
+        print("Exiting...")
+        break
+
+    else:
+        print("Invalid choice!")
