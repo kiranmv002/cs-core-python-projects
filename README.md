@@ -516,6 +516,13 @@ Implementation of Trie for word insertion and searching.
 - Search word
 - Display stored words
 
+🧠 Concepts Practiced
+
+- Trie data structure
+- Prefix searching
+- Recursive traversal
+- Tree-based storage
+
 ---
 
 # 📈 What This Repository Demonstrates
