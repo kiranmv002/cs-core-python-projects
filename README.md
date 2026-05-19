@@ -506,6 +506,18 @@ Implementation of a Priority Queue using heap operations.
 
 ---
 
+### 1️⃣9️⃣ Trie Data Structure
+
+Implementation of Trie for word insertion and searching.
+
+✨ Implemented Features
+
+- Insert word
+- Search word
+- Display stored words
+
+---
+
 # 📈 What This Repository Demonstrates
 
 - Consistent daily project practice  
