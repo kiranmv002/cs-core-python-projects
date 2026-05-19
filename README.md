@@ -487,6 +487,25 @@ Implementation of Dijkstra’s shortest path algorithm.
 
 ---
 
+### 1️⃣8️⃣ Priority Queue using Heap
+
+Implementation of a Priority Queue using heap operations.
+
+✨ Implemented Features
+
+- Insert element
+- Remove highest priority element
+- Display priority queue
+
+🧠 Concepts Practiced
+
+- Heap data structure
+- Priority queue operations
+- Min-heap property
+- Efficient insertion and deletion
+
+---
+
 # 📈 What This Repository Demonstrates
 
 - Consistent daily project practice  
