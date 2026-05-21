@@ -1,0 +1,6 @@
+Python is a powerful programming language.
+Operating Systems manage hardware resources.
+Database Management Systems store data efficiently.
+Data Structures help in organizing data.
+Python supports object oriented programming.
+Graphs and Trees are important in DSA.
