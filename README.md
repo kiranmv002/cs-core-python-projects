@@ -525,6 +525,29 @@ Implementation of Trie for word insertion and searching.
 
 ---
 
+### 2️⃣0️⃣ Mini Search Engine
+
+A simple file-based search engine for keyword searching.
+
+✨ Implemented Features
+
+- Search keyword in text file
+- Display matching lines
+- Case-insensitive searching
+
+📁 Storage Used
+
+- documents.txt
+
+🧠 Concepts Practiced
+
+- File handling
+- String matching
+- Search operations
+- Text processing
+
+---
+
 # 📈 What This Repository Demonstrates
 
 - Consistent daily project practice  
