@@ -30,3 +30,28 @@ def search_word(keyword):
 
     except:
         print("File not found!")
+
+
+# -------- MAIN --------
+
+while True:
+
+    print("\n--- Mini Search Engine ---")
+    print("1. Search Keyword")
+    print("2. Exit")
+
+    choice = input("Enter choice: ")
+
+    if choice == "1":
+
+        keyword = input("Enter keyword to search: ")
+
+        search_word(keyword)
+
+    elif choice == "2":
+
+        print("Exiting...")
+        break
+
+    else:
+        print("Invalid choice!")
