@@ -302,6 +302,29 @@ Simulation of database transactions with commit and rollback functionality.
 
 ---
 
+### 1️⃣1️⃣ Student Record Sorting System
+
+A file-based system to sort student records.
+
+✨ Implemented Features
+
+- View student records
+- Sort by marks
+- Sort by name
+
+📁 Storage Used
+
+- student_records.txt
+
+🧠 Concepts Practiced
+
+- File handling
+- Record sorting
+- Lambda functions
+- Data organization
+
+---
+
 # 📦 Data Structures Projects
 
 ---
