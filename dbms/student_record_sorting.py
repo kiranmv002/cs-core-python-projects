@@ -52,3 +52,37 @@ def sort_by_name(records):
 
     display(records)
 
+
+# -------- MAIN --------
+
+while True:
+
+    print("\n--- Student Record Sorting ---")
+    print("1. View Records")
+    print("2. Sort by Marks")
+    print("3. Sort by Name")
+    print("4. Exit")
+
+    choice = input("Enter choice: ")
+
+    records = load_records()
+
+    if choice == "1":
+
+        display(records)
+
+    elif choice == "2":
+
+        sort_by_marks(records)
+
+    elif choice == "3":
+
+        sort_by_name(records)
+
+    elif choice == "4":
+
+        print("Exiting...")
+        break
+
+    else:
+        print("Invalid choice!")
