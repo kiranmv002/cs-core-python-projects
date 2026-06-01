@@ -1,91 +1,91 @@
-# Transaction & Rollback Simulation
-# Day 22 - DBMS Project
+# Hospital Management System
 
-FILE_NAME = "transactions.txt"
-
-
-def read_data():
-    try:
-        file = open(FILE_NAME, "r")
-        data = file.readlines()
-        file.close()
-        return data
-    except:
-        return []
+FILE_NAME = "patients.txt"
 
 
-def write_data(data):
-    file = open(FILE_NAME, "w")
-    file.writelines(data)
+def add_patient():
+
+    pid = input("Enter Patient ID: ")
+    name = input("Enter Patient Name: ")
+    age = input("Enter Age: ")
+    disease = input("Enter Disease: ")
+
+    file = open(FILE_NAME, "a")
+    file.write(pid + "," + name + "," + age + "," + disease + "\n")
     file.close()
 
+    print("Patient added successfully!")
 
-def transaction():
 
-    print("\n--- Transaction Started ---")
+def view_patients():
 
-    original_data = read_data()   # backup
-    temp_data = original_data.copy()
+    try:
+        file = open(FILE_NAME, "r")
 
-    while True:
+        print("\nID | Name | Age | Disease")
+        print("-" * 40)
 
-        print("\n1. Insert Record")
-        print("2. Delete Record")
-        print("3. View Temp Data")
-        print("4. Commit")
-        print("5. Rollback")
+        for line in file:
+            data = line.strip().split(",")
+            print(data[0], "|", data[1], "|", data[2], "|", data[3])
 
-        choice = input("Enter choice: ")
+        file.close()
 
-        if choice == "1":
-            record = input("Enter record (id,name,age): ")
-            temp_data.append(record + "\n")
-            print("Record added (not yet saved)")
+    except:
+        print("No records found!")
 
-        elif choice == "2":
-            key = input("Enter ID to delete: ")
-            new_data = []
 
-            for line in temp_data:
-                if not line.startswith(key + ","):
-                    new_data.append(line)
+def search_patient():
 
-            temp_data = new_data
-            print("Record removed (not yet saved)")
+    pid = input("Enter Patient ID: ")
 
-        elif choice == "3":
-            print("\n--- Temp Data ---")
-            for line in temp_data:
-                print(line.strip())
+    found = False
 
-        elif choice == "4":
-            write_data(temp_data)
-            print("Transaction Committed ✅")
+    file = open(FILE_NAME, "r")
+
+    for line in file:
+
+        data = line.strip().split(",")
+
+        if data[0] == pid:
+
+            print("\nPatient Found")
+            print("ID:", data[0])
+            print("Name:", data[1])
+            print("Age:", data[2])
+            print("Disease:", data[3])
+
+            found = True
             break
 
-        elif choice == "5":
-            write_data(original_data)
-            print("Transaction Rolled Back ❌")
-            break
+    file.close()
 
-        else:
-            print("Invalid choice!")
+    if not found:
+        print("Patient not found!")
 
-
-# ------ MAIN ------
 
 while True:
 
-    print("\n--- Transaction System ---")
-    print("1. Start Transaction")
-    print("2. Exit")
+    print("\n--- Hospital Management System ---")
+    print("1. Add Patient")
+    print("2. View Patients")
+    print("3. Search Patient")
+    print("4. Exit")
 
-    ch = input("Enter choice: ")
+    choice = input("Enter choice: ")
 
-    if ch == "1":
-        transaction()
-    elif ch == "2":
+    if choice == "1":
+        add_patient()
+
+    elif choice == "2":
+        view_patients()
+
+    elif choice == "3":
+        search_patient()
+
+    elif choice == "4":
         print("Exiting...")
         break
+
     else:
         print("Invalid choice!")
