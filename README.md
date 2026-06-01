@@ -101,6 +101,19 @@ A system to track student attendance and identify shortage.
 
 ---
 
+### 5. Hospital Management System
+
+A file-based system to manage patient records.
+
+**Features**
+
+- Add patient
+- View patients
+- Search patient by ID
+
+
+---
+
 # 💻 Operating Systems Projects
 
 ---
