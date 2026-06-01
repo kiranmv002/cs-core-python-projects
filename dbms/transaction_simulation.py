@@ -72,7 +72,7 @@ def transaction():
             print("Invalid choice!")
 
 
-# -------- MAIN --------
+# ------ MAIN ------
 
 while True:
 
