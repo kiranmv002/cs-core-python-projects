@@ -1,0 +1,3 @@
+P101,Rahul,22,Fever
+P102,Anita,19,Cold
+P103,Kiran,21,Headache
