@@ -111,6 +111,16 @@ A file-based system to manage patient records.
 - View patients
 - Search patient by ID
 
+**Storage Used**
+
+- patients.txt
+
+**Concepts Practiced**
+
+- File handling
+- Record management
+- Searching operations
+- Menu-driven programming
 
 ---
 
