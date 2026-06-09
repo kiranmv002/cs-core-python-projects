@@ -44,4 +44,34 @@ def sstf(requests, head):
     print("\nTotal Seek Time:", total_seek)
 
 
+# -------- MAIN --------
+
+requests = list(map(int, input("Enter disk requests: ").split()))
+
+head = int(input("Enter initial head position: "))
+
+while True:
+
+    print("\n--- Disk Scheduling ---")
+    print("1. FCFS")
+    print("2. SSTF")
+    print("3. Exit")
+
+    choice = input("Enter choice: ")
+
+    if choice == "1":
+
+        fcfs(requests, head)
+
+    elif choice == "2":
+
+        sstf(requests, head)
+
+    elif choice == "3":
+
+        print("Exiting...")
+        break
+
+    else:
+
         print("Invalid choice!")
