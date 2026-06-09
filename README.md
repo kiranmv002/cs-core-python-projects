@@ -242,6 +242,13 @@ Simulation of disk scheduling algorithms.
 - FCFS (First Come First Serve)
 - SSTF (Shortest Seek Time First)
 
+🧠 Concepts Practiced
+
+- Disk scheduling
+- Seek time calculation
+- Head movement optimization
+
+📍 Location: os/disk_scheduling.py
 
 ---
 
