@@ -233,6 +233,18 @@ Simulation of deadlock avoidance using Banker’s Algorithm.
 
 ---
 
+### 9️⃣ Disk Scheduling Simulator
+
+Simulation of disk scheduling algorithms.
+
+⚙️ Algorithms Implemented
+
+- FCFS (First Come First Serve)
+- SSTF (Shortest Seek Time First)
+
+
+---
+
 # 🗄️ Database Management Systems Projects
 
 ---
