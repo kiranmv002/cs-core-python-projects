@@ -98,3 +98,5 @@ Simulation of the Banker's Algorithm used for deadlock avoidance.
 - Safe sequence algorithm
 
 More OS-based simulations will be added progressively.
+
+### 6.
