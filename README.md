@@ -367,6 +367,18 @@ A file-based system to sort student records.
 
 ---
 
+### 1️⃣2️⃣ Login & Authentication System
+
+A simple file-based user authentication system.
+
+✨ Implemented Features
+
+- User registration
+- User login
+- Credential validation
+
+---
+
 # 📦 Data Structures Projects
 
 ---
