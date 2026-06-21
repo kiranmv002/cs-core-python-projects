@@ -377,6 +377,19 @@ A simple file-based user authentication system.
 - User login
 - Credential validation
 
+📁 Storage Used
+
+- users.txt
+
+🧠 Concepts Practiced
+
+- Authentication logic
+- File handling
+- Record searching
+- User validation
+
+📍 Location: dbms/login_system.py
+
 ---
 
 # 📦 Data Structures Projects
