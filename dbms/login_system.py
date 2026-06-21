@@ -45,3 +45,28 @@ def login():
         print("User database not found!")
 
 
+while True:
+
+    print("\n--- Login System ---")
+    print("1. Register")
+    print("2. Login")
+    print("3. Exit")
+
+    choice = input("Enter choice: ")
+
+    if choice == "1":
+
+        register()
+
+    elif choice == "2":
+
+        login()
+
+    elif choice == "3":
+
+        print("Exiting...")
+        break
+
+    else:
+
+        print("Invalid choice!")
