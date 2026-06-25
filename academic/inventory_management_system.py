@@ -36,3 +36,32 @@ def view_products():
 
     except:
         print("Inventory file not found!")
+
+
+def search_product():
+
+    pid = input("Enter Product ID: ")
+
+    found = False
+
+    file = open(FILE_NAME, "r")
+
+    for line in file:
+
+        data = line.strip().split(",")
+
+        if data[0] == pid:
+
+            print("\nProduct Found")
+            print("ID:", data[0])
+            print("Name:", data[1])
+            print("Quantity:", data[2])
+            print("Price:", data[3])
+
+            found = True
+            break
+
+    file.close()
+
+    if not found:
+        print("Product not found!")
