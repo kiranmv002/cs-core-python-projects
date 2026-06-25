@@ -319,6 +319,7 @@ Simulation of database indexing to improve search efficiency.
 - File handling  
 
 📍 Location: dbms/indexing_simulation.py
+---
 
 ### 🔟 Transaction & Rollback Simulation
 
