@@ -122,6 +122,14 @@ A file-based system to manage patient records.
 - Searching operations
 - Menu-driven programming
 
+
+---
+
+### 6. Inventory Management System
+
+A file-based inventory system to manage product details.
+
+
 ---
 
 # 💻 Operating Systems Projects
