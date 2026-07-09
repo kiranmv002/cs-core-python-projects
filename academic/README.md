@@ -95,6 +95,20 @@ A file-based banking system to manage accounts and transactions.
 
 ---
 
-### 5.
+### 5. Hospital Management System
+
+A file-based system to manage patient records.
+
+**Features**
+
+- Add patient
+- View patients
+- Search patient by ID
+
+**Storage Used**
+
+- patients.txt
+
+
 
 More academic projects will be added progressively.
