@@ -129,6 +129,15 @@ A file-based system to manage patient records.
 
 A file-based inventory system to manage product details.
 
+**Features**
+
+- Add product
+- View products
+- Search product by ID
+
+**Storage Used**
+
+- inventory.txt
 
 ---
 
