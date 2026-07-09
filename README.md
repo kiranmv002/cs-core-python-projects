@@ -139,6 +139,13 @@ A file-based inventory system to manage product details.
 
 - inventory.txt
 
+**Concepts Practiced**
+
+- File handling
+- Inventory management
+- Record searching
+- Menu-driven programming
+
 ---
 
 # 💻 Operating Systems Projects
