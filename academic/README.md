@@ -109,6 +109,13 @@ A file-based system to manage patient records.
 
 - patients.txt
 
+**Concepts Practiced**
+
+- File handling
+- Record management
+- Searching operations
+- Menu-driven programming
+
 
 
 More academic projects will be added progressively.
