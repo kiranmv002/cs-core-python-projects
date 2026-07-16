@@ -39,3 +39,35 @@ def display():
     else:
         for item in buffer:
             print(item)
+
+
+while True:
+
+    print("\n--- Producer Consumer Menu ---")
+    print("1. Produce")
+    print("2. Consume")
+    print("3. Display Buffer")
+    print("4. Exit")
+
+    choice = input("Enter choice: ")
+
+    if choice == "1":
+
+        produce()
+
+    elif choice == "2":
+
+        consume()
+
+    elif choice == "3":
+
+        display()
+
+    elif choice == "4":
+
+        print("Exiting...")
+        break
+
+    else:
+
+        print("Invalid choice!")
