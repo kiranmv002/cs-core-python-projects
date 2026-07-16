@@ -116,6 +116,15 @@ A file-based system to manage patient records.
 - Searching operations
 - Menu-driven programming
 
+### 6. Inventory Management System
+
+A file-based inventory system to manage product details.
+
+**Features**
+
+- Add product
+- View products
+- Search product by ID
 
 
 More academic projects will be added progressively.
