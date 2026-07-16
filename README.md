@@ -276,6 +276,19 @@ Simulation of disk scheduling algorithms.
 
 ---
 
+### 🔟 Producer–Consumer Problem
+
+Simulation of the Producer–Consumer problem using a fixed-size buffer.
+
+⚙️ Implemented Features
+
+- Produce item
+- Consume item
+- Display buffer contents
+- Buffer full and empty conditions
+
+---
+
 # 🗄️ Database Management Systems Projects
 
 ---
