@@ -287,6 +287,14 @@ Simulation of the Producer–Consumer problem using a fixed-size buffer.
 - Display buffer contents
 - Buffer full and empty conditions
 
+🧠 Concepts Practiced
+
+- Process synchronization
+- Buffer management
+- FIFO operations
+- Producer–Consumer concept
+
+📍 Location: os/producer_consumer.py
 ---
 
 # 🗄️ Database Management Systems Projects
