@@ -139,4 +139,7 @@ A file-based inventory system to manage product details.
 - Record searching
 - Menu-driven programming
 
+---
+### 7. Next project
+
 More academic projects will be added progressively.
