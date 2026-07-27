@@ -108,5 +108,5 @@ Implementation of basic searching techniques.
 - Time complexity comparison
 - Sorted array requirement for binary search
 
-
+### 6. Algorithm
 More Data Structures projects such as Linked List, Sorting Algorithms, and Trees will be added progressively.
