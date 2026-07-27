@@ -99,5 +99,4 @@ Simulation of the Banker's Algorithm used for deadlock avoidance.
 
 More OS-based simulations will be added progressively.
 
-### 6.
-gfxcxgh
+### 6. Algorithm is
