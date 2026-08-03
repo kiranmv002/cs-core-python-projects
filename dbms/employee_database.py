@@ -37,3 +37,37 @@ def view_employees():
     except:
         print("No employee records found!")
 
+
+def search_employee():
+
+    emp_id = input("Enter Employee ID: ")
+
+    found = False
+
+    try:
+        file = open(FILE_NAME, "r")
+
+        for line in file:
+
+            data = line.strip().split(",")
+
+            if data[0] == emp_id:
+
+                print("\nEmployee Found")
+                print("ID:", data[0])
+                print("Name:", data[1])
+                print("Designation:", data[2])
+                print("Salary:", data[3])
+
+                found = True
+                break
+
+        file.close()
+
+        if not found:
+            print("Employee not found!")
+
+    except:
+        print("No employee records found!")
+
+
