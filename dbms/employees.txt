@@ -1,0 +1,3 @@
+E101,Rahul,Manager,55000
+E102,Anita,Developer,45000
+E103,Sai,Tester,40000
