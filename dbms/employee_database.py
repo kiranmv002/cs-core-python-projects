@@ -103,3 +103,32 @@ def delete_employee():
         print("No employee records found!")
 
 
+while True:
+
+    print("\n--- Employee Database System ---")
+    print("1. Add Employee")
+    print("2. View Employees")
+    print("3. Search Employee")
+    print("4. Delete Employee")
+    print("5. Exit")
+
+    choice = input("Enter choice: ")
+
+    if choice == "1":
+        add_employee()
+
+    elif choice == "2":
+        view_employees()
+
+    elif choice == "3":
+        search_employee()
+
+    elif choice == "4":
+        delete_employee()
+
+    elif choice == "5":
+        print("Exiting...")
+        break
+
+    else:
+        print("Invalid choice!")
