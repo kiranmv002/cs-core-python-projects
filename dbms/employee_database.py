@@ -71,3 +71,35 @@ def search_employee():
         print("No employee records found!")
 
 
+def delete_employee():
+
+    emp_id = input("Enter Employee ID to delete: ")
+
+    try:
+
+        file = open(FILE_NAME, "r")
+        records = file.readlines()
+        file.close()
+
+        file = open(FILE_NAME, "w")
+
+        deleted = False
+
+        for line in records:
+
+            if not line.startswith(emp_id + ","):
+                file.write(line)
+            else:
+                deleted = True
+
+        file.close()
+
+        if deleted:
+            print("Employee deleted successfully!")
+        else:
+            print("Employee not found!")
+
+    except:
+        print("No employee records found!")
+
+
