@@ -438,6 +438,20 @@ A simple file-based user authentication system.
 
 ---
 
+### 1️⃣3️⃣ Employee Database Management System
+
+A file-based system to manage employee records.
+
+✨ Implemented Features
+
+- Add employee
+- View employees
+- Search employee by ID
+- Delete employee
+
+
+---
+
 # 📦 Data Structures Projects
 
 ---
