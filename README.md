@@ -449,6 +449,18 @@ A file-based system to manage employee records.
 - Search employee by ID
 - Delete employee
 
+📁 Storage Used
+
+- employees.txt
+
+🧠 Concepts Practiced
+
+- CRUD operations
+- File handling
+- Record searching
+- Record deletion
+
+📍 Location: dbms/employee_database.py
 
 ---
 
