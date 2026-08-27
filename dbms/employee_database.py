@@ -1,4 +1,5 @@
-# Employee
+
+# Employee Database Management System
 # Day 37 - DBMS Project
 
 FILE_NAME = "employees.txt"
