@@ -311,6 +311,12 @@ Simulation of the Readers–Writers synchronization problem.
 
 🧠 Concepts Practiced
 
+- Process synchronization
+- Shared resource management
+- Mutual exclusion
+- Readers–Writers problem
+
+📍 Location: os/readers_writers.py
 
 ---
 
