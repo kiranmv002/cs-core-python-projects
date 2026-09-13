@@ -295,6 +295,18 @@ Simulation of the Producer–Consumer problem using a fixed-size buffer.
 - Producer–Consumer concept
 
 📍 Location: os/producer_consumer.py
+
+---
+
+### 1️⃣1️⃣ Readers–Writers Problem
+
+Simulation of the Readers–Writers synchronization problem.
+
+⚙️ Implemented Features
+
+- Read shared data
+- Write new data
+
 ---
 
 # 🗄️ Database Management Systems Projects
