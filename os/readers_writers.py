@@ -32,3 +32,20 @@ def write_data():
     data = new_data
 
     print("Data written successfully.")
+
+
+while True:
+
+    print("\n--- Readers-Writers Problem ---")
+    print("1. Read Data")
+    print("2. Write Data")
+    print("3. Show Data")
+    print("4. Exit")
+
+    choice = input("Enter choice: ")
+
+    if choice == "1":
+
+        read_data()
+
+        print("Invalid choice!")
