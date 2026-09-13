@@ -48,4 +48,19 @@ while True:
 
         read_data()
 
+    elif choice == "2":
+
+        write_data()
+
+    elif choice == "3":
+
+        print("\nCurrent Data:", data)
+
+    elif choice == "4":
+
+        print("Exiting...")
+        break
+
+    else:
+
         print("Invalid choice!")
