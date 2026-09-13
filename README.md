@@ -306,6 +306,11 @@ Simulation of the Readers–Writers synchronization problem.
 
 - Read shared data
 - Write new data
+- Check reader activity
+- Prevent writing while data is being read
+
+🧠 Concepts Practiced
+
 
 ---
 
